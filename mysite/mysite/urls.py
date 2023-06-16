@@ -5,3 +5,7 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]
+urlpatterns = [
+    path('biblioteka/', include('biblioteka.urls')),
+    path('admin/', admin.site.urls),
+]
