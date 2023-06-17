@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Gatunek,Czytelnicy, Ksiazka
+
+admin.site.register(Gatunek)
+admin.site.register(Czytelnicy)
+admin.site.register(Ksiazka)
